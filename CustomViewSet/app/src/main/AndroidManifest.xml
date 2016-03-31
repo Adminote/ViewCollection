@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.martino.customviewset">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".designcompat.tablayout.TabLayoutActivity" />
+        <activity android:name=".loadinganimation.LoadingActivity" />
+
+        <activity android:name=".transitioncompat.activity.FromActivity" />
+        <activity
+            android:name=".transitioncompat.activity.ToActivity"
+            android:theme="@style/Theme.AppCompat.Translucent">
+        </activity>
+
+        <activity android:name=".scroll.ComplexActivity" />
+        
+        <activity android:name=".recycleview.RecycleActivity" />
+
+        <activity android:name=".materialdesign.appbarlayout.HideActivity" />
+    </application>
+
+</manifest>
