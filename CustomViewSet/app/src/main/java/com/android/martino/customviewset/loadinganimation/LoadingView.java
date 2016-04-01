@@ -100,5 +100,5 @@ public class LoadingView extends ProgressDialog{
     private static final float SCALE_Y_TO = 2.0f;
     private static  final int POINT_SIZE = 10; //圆点数量
     private static final int MARGIN = 10; //原点间距
-    private static final int ANIM_TIME = 350; //动画时间
+    private static final int ANIM_TIME = 600; //动画时间
 }
