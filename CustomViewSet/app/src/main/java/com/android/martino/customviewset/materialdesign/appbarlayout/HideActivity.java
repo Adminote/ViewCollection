@@ -49,8 +49,10 @@ public class HideActivity extends AppCompatActivity {
         });
 
         collapsingToolbarLayout.setTitle("CollapsingToolbarLayout");
-        collapsingToolbarLayout.setCollapsedTitleTextColor(getResources().getColor(R.color.black));
-        collapsingToolbarLayout.setExpandedTitleColor(getResources().getColor(R.color.transparent));
+        collapsingToolbarLayout.setCollapsedTitleTextColor(
+                getResources().getColor(R.color.black));
+        collapsingToolbarLayout.setExpandedTitleColor(
+                getResources().getColor(R.color.red));
 
         recyclerView.setItemAnimator(new DefaultItemAnimator());
 
